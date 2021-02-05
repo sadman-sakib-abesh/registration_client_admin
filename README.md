@@ -6,3 +6,4 @@ react js is not needed to be installed. For backend node js is needed to be inst
 <h2>installation</h2>
 
 
+$git clone https://github.com/abesh1/registration_clent_admin.git
