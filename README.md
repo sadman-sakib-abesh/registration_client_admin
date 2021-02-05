@@ -27,13 +27,9 @@ $npm install body-parser
 
 <h3>step-3</h3>
 
-in your local mysql server login to root and creat a database named project-1 and then creat a table named user and add 5 rows like this:
-          data type
-id         int (auto_increament)
-name      text 
-email     text
-number    text
-batch     date
+in your local mysql server login to root and creat a database named project-1 and then creat a table named user and add 5 rows like this:<br />
+
+<img src="Screenshot_20210205-224842.png"/>
 
 <h3>step-4</h3>
 
