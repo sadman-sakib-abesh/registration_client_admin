@@ -47,8 +47,8 @@ app.post('/api/client',(req, res)=> {
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'thirdeyephotography2020@gmail.com',
-    pass: 'I@mabesh1'
+    user: 'yourmail@gmail.com',
+    pass: 'password'
   }
 });
 
