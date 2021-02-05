@@ -1,6 +1,6 @@
 <h1>setup</h1>
 
-this form is made with react js and nodejs. The frontend part is made with cdn links so loclly 
+this form is made with react js and nodejs. The frontend part is made with cdn links so locally 
 react js is not needed to be installed. For backend node js is needed to be installed. follow  all the steps bellow
 
 <h2>installation and running</h2>
