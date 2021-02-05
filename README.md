@@ -9,12 +9,14 @@ react js is not needed to be installed. For backend node js is needed to be inst
 
 run these commands in your terminal
 <h3>step-1</h3>
-clone this project and inter the api folder
+clone this project and inter the api folder.
+
 ```bash
 $git clone https://github.com/abesh1/registration_clent_admin.git && cd api
 ```
 <h3>step-2</h3>
-install nodemailer, body-parser, express and cors
+install nodemailer, body-parser, express and cors.
+
 
 ```bash
 $npm install express
@@ -35,4 +37,4 @@ batch     date
 
 <h3>step-4</h3>
 
-now edit the file api/index.js on line
+now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link 
