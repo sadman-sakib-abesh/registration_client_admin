@@ -1,7 +1,7 @@
 <h1>setup</h1>
 
 this form is made with react js and nodejs. The frontend part is made with cdn links so loclly 
-react js is not needed to be installed. For backend node js is needed to be installed. 
+react js is not needed to be installed. For backend node js is needed to be installed. follow  all the steps bellow
 
 <h2>installation and running</h2>
 
@@ -37,4 +37,24 @@ batch     date
 
 <h3>step-4</h3>
 
-now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link 
+now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link https://www.google.com/settings/security/lesssecureapps and allow less secured apps.
+
+<h3>step-5</h3>
+
+now run backend server from terminal
+
+
+```bash
+$node index.js
+```
+
+if the server runs successfully then you will get a massage
+
+```bash
+$node index.js
+$successful 
+$connected
+```
+
+if you don't get connected massage it mean's database is not configured as step-3
+ now brows client/index.html to send data via form and brows admin/index.html to see database.
