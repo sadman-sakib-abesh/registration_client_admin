@@ -96,7 +96,7 @@ let query=conn.query(sql,(err,done)=>{
 
 app.get("/api/admin",(req,res)=>{
   
-  var sql="SELECT * FROM user";
+  var sql="SELECT * FROM user ORDER BY desc";
   let query=conn.query(sql,(error,info)=>{
     if(error){
       console.log(error);
