@@ -40,6 +40,27 @@ in your local mysql server login to root and creat a database named project-1 an
 
 now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link https://www.google.com/settings/security/lesssecureapps and allow less secured apps. Dont't skip this step. If you don't set it, the application will not send mail and form data will not be addd to database.
 
+```javascript
+var transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'yourmail@gmail.com',
+    pass: 'password'
+  }
+});
+
+
+
+
+   //mailing user interface
+var mailOptions = {
+  from: 'thirdeyephotography2020@gmail.com',//
+  to:req.body.email,                
+  subject: 'Registration confirmed',//
+  text: 'This is a dummy mail sent from server'//
+};
+```
+
 <h3>step-5</h3>
 
 now run backend server from terminal
