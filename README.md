@@ -28,6 +28,7 @@ $ npm install express
 $ npm install cors
 $ npm install nodemailer
 $ npm install body-parser
+$ npm install mysql
 ```
 
 <h3>step-3</h3>
