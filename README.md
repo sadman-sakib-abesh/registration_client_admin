@@ -1,7 +1,7 @@
 <h1>setup</h1>
 
 this form is made with react js and nodejs. The frontend part is made with cdn links so locally 
-react js is not needed to be installed. For backend node js is needed to be installed. follow  all the steps bellow
+react js is not needed to be installed. For backend node js is needed to be installed. I used Acode code editor follow  all the steps bellow
 
 <h2>admin</h2>
 <img src="admin.png"/>
