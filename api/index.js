@@ -57,7 +57,7 @@ var transporter = nodemailer.createTransport({
 
    //mailing user interface
 var mailOptions = {
-  from: 'thirdeyephotography2020@gmail.com',//
+  from: 'yourmail@gmail.com',//
   to:req.body.email,                
   subject: 'Registration confirmed',//
   text: 'This is a dummy mail sent from server'//
