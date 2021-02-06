@@ -58,4 +58,4 @@ $connected
 ```
 
 if you don't get connected massage it mean's database is not configured as step-3
- now browse client/index.html to send data via form and brows admin/index.html to see database.
+ now browse client/index.html to send data via form and browse admin/index.html to see database.
