@@ -39,7 +39,7 @@ in your local mysql server login to root and creat a database named project-1 an
 
 <h3>step-4</h3>
 
-now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link https://www.google.com/settings/security/lesssecureapps and allow less secured apps. Dont't skip this step. If you don't set it, the application will not send mail and form data will not be addd to database.
+now edit the file api/index.js on line 50,51 and 60 set your mail address and password. after that inter this link https://www.google.com/settings/security/lesssecureapps and allow less secured apps. Don't skip this step. If you don't set it, the application will not send mail and form data will not be addd to database.
 
 ```javascript
 var transporter = nodemailer.createTransport({
