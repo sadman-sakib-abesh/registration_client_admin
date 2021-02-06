@@ -17,7 +17,7 @@ run these commands in your terminal
 clone this project and inter the api folder.
 
 ```bash
-$ git clone https://github.com/sadman-sakib-abesh/registration_client_admin.git && cd api
+$ git clone https://github.com/sadman-sakib-abesh/registration_client_admin.git && cd registration_client_admin
 ```
 <h3>step-2</h3>
 install nodemailer, body-parser, express and cors.
