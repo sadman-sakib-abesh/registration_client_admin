@@ -17,17 +17,17 @@ run these commands in your terminal
 clone this project and inter the api folder.
 
 ```bash
-$git clone https://github.com/sadman-sakib-abesh/registration_client_admin.git && cd api
+$ git clone https://github.com/sadman-sakib-abesh/registration_client_admin.git && cd api
 ```
 <h3>step-2</h3>
 install nodemailer, body-parser, express and cors.
 
 
 ```bash
-$npm install express
-$npm install cors
-$npm install nodemailer
-$npm install body-parser
+$ npm install express
+$ npm install cors
+$ npm install nodemailer
+$ npm install body-parser
 ```
 
 <h3>step-3</h3>
@@ -46,15 +46,15 @@ now run backend server from terminal
 
 
 ```bash
-$node index.js
+$ node index.js
 ```
 
 if the server runs successfully then you will get a massage
 
 ```bash
-$node index.js
-$successful 
-$connected
+$ node index.js
+$ successful 
+$ connected
 ```
 
 if you don't get connected massage it mean's database is not configured as step-3
